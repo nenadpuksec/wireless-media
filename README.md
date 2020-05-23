@@ -4,9 +4,13 @@ Wireless Media Vue - task technical specification Vue.js
 
 Library:
 
-Nuxt.js
-Axios
+Nuxt.js,
+
+Axios,
+
 Vuex
+
+
 Material Design:
 
 Vuetify
