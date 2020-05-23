@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.main-button {
+    background-color: $primary-color $i;
+    color: white $i;
+    border-radius: 10px $i;
+    width: 300px;
+    height: 40px $i;
+    font-family: $main-font-family;
+    text-transform: none $i;
+    font-weight: 700 $i; 
+    line-height: 48px $i;
+    font-size: 18px $i;
+    box-shadow: none $i;
+}

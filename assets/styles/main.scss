@@ -1,0 +1,151 @@
+@import '../styles/variables.scss';
+@import '../styles/UI/button.scss';
+@import '../styles/UI/icons.scss';
+
+/*.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}*/
+
+.dropdown-style {
+    color: $primary-color $i;
+    height: 50px; 
+    padding: 0px;
+}
+/*#dropdown-style {
+    width: 230px $i;
+}
+.v-input__control {
+    color: $primary-color $i;
+}
+.v-select__selections {
+    color: $primary-color $i;
+}
+.v-select__selection .v-select__selection--comma{
+    color: $primary-color $i;
+}
+.v-input__slot {
+    color: $primary-color $i;
+}
+.v-list-item__content {
+    color: $primary-color $i;
+}
+.v-list-item__title {
+    color: $primary-color $i;
+}*/
+
+/* PROMO SECTION */
+.promo {
+    min-height: 50px;
+}
+
+.promo-promo-text {
+    font-family: $main-font-family;
+    color: $primary-color;
+    font-size: 15.29px; 
+    font-style: italic; 
+    font-weight: 700; 
+    text-align: center; 
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 0px $i;
+}
+
+
+/* TITLE SECTION */
+.box-title {
+    font-family: $main-font-family;
+    color: $primary-color;
+    font-size: 48px; 
+    font-style: italic; 
+    font-weight: 700; 
+    text-align: center; 
+    line-height: 48px;
+}
+
+.box-title-main{
+    height: 150px $i;
+    padding: 30px $i;
+}
+
+/* TV SECTION */
+.tv-section {
+    min-height: 200px;
+}
+
+/* TV SECTION */
+.net-section {
+    min-height: 100px;
+}
+
+/* NET PROMO SECTION */
+.net-promo-text {
+    font-size: 14px; 
+    line-height: 48px;
+    font-family: $main-font-family;
+    color: $primary-color;
+    font-style: italic; 
+    font-weight: 700;
+}
+
+.net-promo-background {
+    background-color: white; 
+    margin-left: -80px; 
+    padding-left: 60px $i;
+}
+
+
+/* MAIN BOX */
+.box {
+    background-color: $box-color $i;
+    display: flex;
+}
+/* FOR NET AND TV SECTION */
+.included-text {
+    font-size: $main-font-size;
+    font-family: $main-font-family;
+    color: #102542;
+}
+
+
+/* PRICE SECTION */
+.old-price-section {
+    height: 110px;
+}
+
+.current-price-section {
+    height: 60px;
+}
+
+.old-price {
+    color: $primary-color;
+    font-family: $main-font-family;
+    font-weight: 700 $i; 
+    line-height: 55.15px $i;
+    font-size: 22px $i;
+    font-style: italic;
+    max-height: 55px $i;
+}
+
+.current-price {
+    color: $primary-color;
+    font-family: $main-font-family;
+    font-weight: 700 $i; 
+    line-height: 48px $i;
+    font-size: 33px $i;
+    font-style: italic;
+    max-height: 55px $i;
+}
+
+.price-promo-text {
+    color: #102542;
+    font-family: $main-font-family;
+    line-height: 18.16px;
+    font-size: 15.29px;
+}
+
+.price-height {
+    max-height: 60px $i;
+}
